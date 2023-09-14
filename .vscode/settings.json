@@ -1,0 +1,59 @@
+{
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "search.exclude": {
+        "**/*.BAK": true,
+        "**/*.bak": true,
+        "**/dist": true
+    },
+    "files.watcherExclude": {
+        "**/*.BAK": true,
+        "**/*.bak": true
+    },
+    "editor.formatOnSave": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "debug.node.autoAttach": "on",
+    "files.trimTrailingWhitespace": true,
+    "workbench.colorTheme": "Quiet Light",
+    "workbench.colorCustomizations": {
+        "editor.background": "#d9e414",
+        "tab.inactiveBackground": "#d9de8a",
+        "editorGroupHeader.tabsBackground": "#969783",
+        "sideBar.background": "#a0a727",
+        "editor.lineHighlightBackground": "#00ff2f18",
+        "activityBar.activeBackground": "#404404",
+        "activityBar.background": "#7c8218",
+        "activityBar.foreground": "#bac280",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#9f3a3a",
+        "activityBarBadge.foreground": "#ddee58",
+        "commandCenter.border": "#ddee5899",
+        "sash.hoverBorder": "#a0a727",
+        "statusBar.background": "#a0a727",
+        "statusBar.foreground": "#c1ec40",
+        "statusBarItem.hoverBackground": "#a0a727",
+        "statusBarItem.remoteBackground": "#a0a727",
+        "statusBarItem.remoteForeground": "#ddee58",
+        "titleBar.activeBackground": "#a0a727",
+        "titleBar.activeForeground": "#ddee58",
+        "titleBar.inactiveBackground": "#a0a72799",
+        "titleBar.inactiveForeground": "#e7e7e799",
+        "terminal.background": "#b3d91c"
+    },
+    "editor.tokenColorCustomizations": {
+        "[Quiet Light]": {
+            "variables": "#a35f11",
+            "comments": "#177b3eea",
+            "textMateRules": [
+                {
+                    "name": "Lists",
+                    "scope": "markup.list",
+                    "settings": {
+                        "foreground": "#7a3883"
+                    }
+                },
+            ],
+        }
+    },
+    "insertGuid.pasteAutomatically": "{n}"
+}

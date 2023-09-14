@@ -1,0 +1,25 @@
+# logs
+npm-debug.log*
+
+# npm
+node_modules
+published
+*.tgz
+
+# compiled targets
+dist/*
+
+# backups
+*.BAK
+*.bak
+
+# vim
+
+# typescript
+*.tsbuildinfo
+
+# mac
+.DS_Store
+
+# spec derivatives
+ibgib
